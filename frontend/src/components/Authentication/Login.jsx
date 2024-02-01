@@ -44,11 +44,7 @@ const Login = () => {
         },
       };
 
-      const { data } = await axios.post(
-        "http://127.0.0.1:5000/login",
-        { email, password },
-        config
-      );
+      const { data } = await axios.post("/login", { email, password }, config);
 
       toast({
         title: "Login Successful",

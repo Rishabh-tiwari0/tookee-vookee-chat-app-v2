@@ -61,10 +61,7 @@ const SingleChat = () => {
 
       setLoading(true);
 
-      const { data } = await axios.get(
-        `http://127.0.0.1:5000/message/${selectedChat._id}`,
-        config
-      );
+      const { data } = await axios.get(`/message/${selectedChat._id}`, config);
       setMessages(data);
       setLoading(false);
       socket.emit("join chat", selectedChat._id);
@@ -102,7 +99,7 @@ const SingleChat = () => {
       };
       setNewMessage("");
       const { data } = await axios.post(
-        "http://127.0.0.1:5000/message",
+        "/message",
         {
           content: newMessage,
           chatId: selectedChat._id,

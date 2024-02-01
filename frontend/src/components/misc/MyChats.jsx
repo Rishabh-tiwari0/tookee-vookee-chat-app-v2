@@ -29,7 +29,7 @@ const MyChats = () => {
         },
       };
 
-      const { data } = await axios.get("http://127.0.0.1:5000/chats", config);
+      const { data } = await axios.get("/chats", config);
       setChats(data);
     } catch (error) {
       toast({

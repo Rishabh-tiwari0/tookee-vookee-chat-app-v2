@@ -74,7 +74,7 @@ const UpdateGroupChatModal = ({ fetchMessages }) => {
         },
       };
       const { data } = await axios.put(
-        `http://127.0.0.1:5000/chats/groupadd`,
+        `/chats/groupadd`,
         {
           chatId: selectedChat._id,
           userId: userToAdd._id,
@@ -118,7 +118,7 @@ const UpdateGroupChatModal = ({ fetchMessages }) => {
         },
       };
       const { data } = await axios.put(
-        `http://127.0.0.1:5000/chats/groupremove`,
+        `/chats/groupremove`,
         {
           chatId: selectedChat._id,
           userId: user1._id,
