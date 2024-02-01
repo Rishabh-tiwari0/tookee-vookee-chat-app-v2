@@ -18,7 +18,7 @@ import axios from "axios";
 import ChatMessagesRender from "./ChatMessagesRender";
 import io from "socket.io-client";
 
-const ENDPOINT = "http://localhost:https://tookee-vookee.onrender.com";
+const ENDPOINT = "https://tookee-vookee.onrender.com";
 
 var socket, selectedChatCompare;
 
