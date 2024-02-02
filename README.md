@@ -39,4 +39,4 @@ Tookey Wookey 2.0 automatically generates beautiful and professional Markdown fo
 
 ## Conclusion
 
-Tookey Wookey 2.0 represents a thoughtful enhancement to our previous chat application, incorporating  feedback and technological advancements to create a more polished and user-friendly experience. With improved features such as real-time messaging, secure authentication, and enhanced group chat capabilities, Tookey Wookey 2.0 aims to provide a more seamless and enjoyable platform for communication. We appreciate your continued support and look forward to offering you a refined and reliable chatting experience. Thank you for being a part of the Tookey Wookey community.
+Tookey Wookey 2.0 represents a thoughtful enhancement to our previous chat application, incorporating  feedback and technological advancements to create a more polished and user-friendly experience. With improved features such as real-time messaging, secure authentication, and enhanced group chat capabilities, Tookey Wookey 2.0 aims to provide a more seamless and enjoyable platform for communication. 
